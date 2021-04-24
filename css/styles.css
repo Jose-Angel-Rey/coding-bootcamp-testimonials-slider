@@ -72,8 +72,19 @@
 .john-testimonial {
   display: none;
 }
-
+.testimonial-photo-container {
+  border: 1px solid chocolate;
+  background-image: url("../images/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 40px 40px 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
 .student-photo {
+  border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.2);
   max-width: 100%;
 }
 
