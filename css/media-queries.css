@@ -3,6 +3,7 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     max-width: 1000px;
+    position: relative;
   }
   .testimonial-content-container {
     background-position-x: 20%;
@@ -10,9 +11,14 @@
     font-size: 25px;
     line-height: 30px;
     text-align: left;
+    width: 60%;
+    z-index: 10000;
   }
   .testimonial-photo-container {
     margin: 0px;
+    position: absolute;
+    width: 50%;
+    right: 0;
   }
   .testimonial-id__name {
     display: inline-block;
