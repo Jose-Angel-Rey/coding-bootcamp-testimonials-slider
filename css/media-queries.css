@@ -1,8 +1,11 @@
 @media screen and (min-width: 768px) {
+  .main-container {
+    background-position-y: 75vh;
+  }
   .testimonial-container {
     flex-flow: row nowrap;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1100px;
     position: relative;
   }
   .testimonial-content-container {
@@ -11,13 +14,13 @@
     font-size: 25px;
     line-height: 30px;
     text-align: left;
-    width: 60%;
+    width: 55%;
     z-index: 10000;
   }
   .testimonial-photo-container {
     margin: 0px;
     position: absolute;
-    width: 50%;
+    width: 60%;
     right: 0;
   }
   .testimonial-id__name {
