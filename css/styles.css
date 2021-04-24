@@ -21,6 +21,49 @@
   overflow: hidden;
 }
 
+.main-container {
+  border: 1px solid magenta;
+  background-image: url("../images/pattern-curve.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+}
+/* Testimonial */
+.testimonial-container {
+  border: 1px solid green;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-content-container {
+  color: var(--main-color);
+  font-family: var(--main-font);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 10px;
+}
+.john-testimonial {
+  display: none;
+}
+
+.student-photo {
+  max-width: 100%;
+}
+
 /* Attribution footer*/
 .attribution {
   font-size: 14px;
