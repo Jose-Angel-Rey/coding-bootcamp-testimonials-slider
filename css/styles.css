@@ -128,11 +128,10 @@
   text-align: center;
   color: var(--main-color);
   padding: 20px;
-  /* position: relative; */
-  /* bottom: 20px; */
 }
 .attribution a {
   color: purple;
+  text-decoration: none;
   transition: color 0.5s;
 }
 .attribution a:hover {

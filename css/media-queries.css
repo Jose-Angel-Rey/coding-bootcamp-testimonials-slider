@@ -18,6 +18,9 @@
     width: 55%;
     z-index: 10000;
   }
+  .student-photo {
+    box-shadow: 10px 15px 10px rgb(0 0 0 / 10%);
+  }
   .testimonial-photo-container {
     margin: 0px;
     position: absolute;
@@ -33,10 +36,15 @@
     margin-left: 5px;
     font-size: 18px;
   }
-  .attribution{
-      background-color: transparent;
-      padding: 0px;
-      position: absolute;
+  .switch-icons {
+    margin-right: auto;
+    margin-left: 15%;
+  }
+
+  .attribution {
+    background-color: transparent;
+    padding: 0px;
+    position: absolute;
     bottom: 50px;
     left: 50px;
   }

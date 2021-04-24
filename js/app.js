@@ -16,7 +16,7 @@ function checkClass() {
     // Show Tanya testimonial
     console.log(testimonialContent.children[0].classList.remove("hidden"));
 
-    // Hidde John testimonial
+    // Hidden John testimonial
     console.log(testimonialContent.children[1].classList.add("hidden"));
 
     // Change avatar image
@@ -25,7 +25,7 @@ function checkClass() {
     // Show John testimonial
     console.log(testimonialContent.children[1].classList.remove("hidden"));
 
-    // Hidde Tanya testimonial
+    // Hidden Tanya testimonial
     console.log(testimonialContent.children[0].classList.add("hidden"));
 
     // Change avatar image
