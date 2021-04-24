@@ -22,7 +22,6 @@
 }
 
 .main-container {
-  border: 1px solid magenta;
   background-image: url("../images/pattern-curve.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -37,7 +36,6 @@
 }
 /* Testimonial */
 .testimonial-container {
-  border: 1px solid green;
   width: 90%;
   max-width: 450px;
   display: flex;
@@ -76,7 +74,6 @@
   display: none;
 }
 .testimonial-photo-container {
-  border: 1px solid chocolate;
   background-image: url("../images/pattern-bg.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -97,8 +94,6 @@
   border-radius: 25px;
   background-color: #fff;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  /* width: 75px; */
-  /* padding: 10px 12px; */
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
@@ -127,13 +122,14 @@
 }
 /* Attribution footer*/
 .attribution {
+  background-color: #f4f4fc;
   font-size: 14px;
   font-family: var(--main-font);
   text-align: center;
   color: var(--main-color);
-  padding: 0px 10px;
-  position: relative;
-  bottom: 0px;
+  padding: 20px;
+  /* position: relative; */
+  /* bottom: 20px; */
 }
 .attribution a {
   color: purple;

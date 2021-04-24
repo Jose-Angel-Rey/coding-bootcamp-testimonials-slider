@@ -1,6 +1,7 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
   .main-container {
-    background-position-y: 75vh;
+    background-position-y: 80vh;
+    padding: 0px;
   }
   .testimonial-container {
     flex-flow: row nowrap;
@@ -31,5 +32,12 @@
     display: inline-block;
     margin-left: 5px;
     font-size: 18px;
+  }
+  .attribution{
+      background-color: transparent;
+      padding: 0px;
+      position: absolute;
+    bottom: 50px;
+    left: 50px;
   }
 }
