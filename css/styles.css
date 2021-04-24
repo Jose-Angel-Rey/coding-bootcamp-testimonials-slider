@@ -1,0 +1,48 @@
+/* Base styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  /* Fonts */
+  --main-font: "Inter", sans-serif;
+  --second-font: "Lexend Deca", sans-serif;
+
+  /* Background Colors */
+  --body-bg-color: hsl(233, 47%, 7%);
+  --card-bg-color: hsl(244, 38%, 16%);
+  --card-image-accent: hsl(277, 64%, 61%);
+  /* Text colors */
+  --title-color: hsl(0, 0%, 100%);
+  --stats-title-color: hsla(0, 0%, 100%, 0.6);
+  --paragraph-color: hsla(0, 0%, 100%, 0.75);
+}
+/* ScreenReader only */
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -100000000;
+  overflow: hidden;
+}
+
+/* Attribution footer*/
+.attribution {
+  background-color: var(--body-bg-color);
+  font-size: 14px;
+  font-family: var(--second-font);
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.attribution a {
+  color: cyan;
+  transition: color 0.5s;
+}
+.attribution a:hover {
+  color: var(--card-image-accent);
+}
+.attribution a:active {
+  color: cyan;
+}
